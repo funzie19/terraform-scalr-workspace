@@ -9,7 +9,6 @@ terraform {
   }
 }
 
-
 resource "scalr_workspace" "workspaces" {
   name              = var.name
   environment_id    = var.environment_id
